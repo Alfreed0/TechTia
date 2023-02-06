@@ -1,0 +1,26 @@
+.header {
+    width: 100%;
+    height: 4rem;
+    background-color: var(--emphasis-color);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    box-shadow: rgba(0, 0, 0, 0.15) 2.4px 2.4px 3.2px;
+}
+
+.links a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.25rem;
+    margin: 0 1rem;
+}
+
+.tia-logo img {
+    height: 2.5rem;
+}
+
+.tia-logo {
+    margin-left: 1rem;
+}
+
