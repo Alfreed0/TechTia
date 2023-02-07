@@ -5,28 +5,36 @@
 # <p align="center">:shopping_cart: TechTia :shopping_cart:</p>
 ## <p align="center">Authentication Token</p>
 
+## :memo: Description
+Tech test, landing page with register and login options using authentication token.
+
 ## 💻 Technologies Used
 ![JavaScript](https://img.shields.io/badge/-JavaScript-05122A?style=flat&logo=javascript)  ![CSS3](https://img.shields.io/badge/-CSS-05122A?style=flat&logo=css3) ![HTML5](https://img.shields.io/badge/-HTML5-05122A?style=flat&logo=html5) ![Node](https://img.shields.io/badge/-Node.js-05122A?style=flat&logo=node.js) 
 ![Express](https://img.shields.io/badge/-Express-05122A?style=flat&logo=express) ![React](https://img.shields.io/badge/-React-05122A?style=flat&logo=react) ![Git](https://img.shields.io/badge/-Git-05122A?style=flat&logo=git) ![Github](https://img.shields.io/badge/-GitHub-05122A?style=flat&logo=github)
 ![VSCode](https://img.shields.io/badge/-VS_Code-05122A?style=flat&logo=visualstudio) ![MySQL](https://img.shields.io/badge/-MySQL-05122A?style=flat&logo=mysql) ![Sequelize](https://img.shields.io/badge/-Sequelize-05122A?style=flat&logo=sequelize)
 
-## :memo: Description
-Tech test, landing page with register and login options using authentication token.
-
 ## :top: Setting up the development environment
-1. Clone this repository
+1. Clone this repository.
 
 `git clone https://github.com/Alfreed0/TechTia`
 
-2. Enter the project
+2. Enter the project.
 
 `cd TechTia`
 
-3. Install the project dependencies (npm will use *package.json* to get this done, do not worry about which dependencies there are). The following command must be run on both folders, **_front-tia-token_** and **_back-tia-token_**
+3. Install the project dependencies (npm will use *package.json* to get this done, do not worry about which dependencies there are). The following command must be run on both folders, **_front-tia-token_** and **_back-tia-token_**.
 
 `npm install`
 
-4. You are ready to run the project and continue the development
+4. Now, with everything installed it's time to run the project. Let us start with te back. Run the next command inside **_back-tia-token_**.
+
+`npm run devstart`
+
+5. As for the front, the next command should do the trick. Run it inside **_front-tia-token_**.
+
+`npm start`
+
+6. You are all set :D.
 
 ## 🔥 Getting Started
 <details open>
@@ -52,7 +60,7 @@ Tech test, landing page with register and login options using authentication tok
 ## 📸 Screenshots
   |   Description | Screenshot | 
   |:-------------:| -----------|
-  | <h3>Lading Page</h3> | <img src="https://user-images.githubusercontent.com/66737451/217136163-768bbeb8-1baa-4005-85bf-f75cbc627b56.png" width="700"/> |
+  | <h3>Lading Page</h3> | <img src="https://user-images.githubusercontent.com/66737451/217142438-51860253-a90f-4626-96a4-01ecd547378e.png" width="700"/> |
   | <h3>Register Page</h3> | <img src="https://user-images.githubusercontent.com/66737451/217136337-9ddfe53d-a554-429e-a6e0-cd7154670d67.png" width="700"/> |
   | <h3>Login Page</h3> | <img src="https://user-images.githubusercontent.com/66737451/217136423-9b192f5c-94d0-4bad-ba2b-6cd37610be0f.png" width="700"/> |
   | <h3>Working Token</h3> | <img src="https://user-images.githubusercontent.com/66737451/217136710-f8efbd70-fbfa-4232-bc31-3dfb20be3c08.png" width="700"/> |
