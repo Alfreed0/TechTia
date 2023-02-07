@@ -78,6 +78,16 @@ h2 + div {
     padding: 0;
 }
 
+.token-button:disabled {
+    background-color: white;
+    color: #ccc;
+}
+
+.token-button:disabled:hover {
+    background-color: white;
+    color: #ccc;
+}
+
 form + h2 {
     margin-top: 2rem;
 }
@@ -114,4 +124,14 @@ button {
 button:hover {
   background-color: white;
   color: var(--emphasis-color);
+}
+
+button:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+}
+
+button:disabled:hover {
+    background-color: #ccc;
+    color: white;
 }

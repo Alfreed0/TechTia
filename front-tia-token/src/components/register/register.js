@@ -1,5 +1,7 @@
 import React, { useState } from "react";
 import Header from "../header/header";
+import { createUser } from "../../services/token";
+import { useNavigate } from 'react-router-dom';
 import './register.css'
 
 const RegistrationForm = () => {
@@ -19,12 +21,25 @@ const RegistrationForm = () => {
 
   const handleSubmit = event => {
     event.preventDefault();
-    console.log("Form data:", formData);
+    create()
   };
+
+  const navigate = useNavigate();
+
+  const handleRedirect = () => {
+    navigate('/access', {replace: true});
+  }
+
+  async function create() {
+    const response = await createUser(formData);
+    if (response.status === 200) {
+      handleRedirect();
+    }
+  }
 
   return (
     <>
-        <Header />
+        <Header links={[['Iniciar Sesión', '/access']]}/>
         <div className="register-container">
             <div>
                 <h1>Registro</h1>

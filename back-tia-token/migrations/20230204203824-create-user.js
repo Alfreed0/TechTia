@@ -28,14 +28,6 @@ module.exports = {
         type: Sequelize.STRING,
         defaultValue: null
       },
-      setdevice: {
-        type: Sequelize.BOOLEAN,
-        defaultValue: false
-      },
-      updatedTime: {
-        type: Sequelize.DATE,
-        defaultValue: null
-      },
       createdAt: {
         allowNull: false,
         type: Sequelize.DATE

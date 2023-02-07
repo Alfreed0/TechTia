@@ -1,20 +1,22 @@
-.user {
+.landing {
     height: 100%;
     width: 100%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
     padding: 0;
     margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
-.user > div > p:nth-child(1) {
+.landing > div > p:nth-child(1) {
     font-size: 3rem;
     font-weight: bold;
 }
 
-.user > div > p:nth-child(2) {
+.landing > div > p:nth-child(2) {
     font-size: 2rem;
 }
 
+.landing > div > ul > li {
+    font-size: 1.5rem;
+}

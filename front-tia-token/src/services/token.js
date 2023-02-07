@@ -16,3 +16,31 @@ export async function getUserByEmail(email) {
   
   return response.json();
 }
+
+export async function createUser(user) {
+  const url = new URL(URL_SERVER);
+  url.pathname = '/users/create';
+  let response = await fetch(url, {
+    method: 'Post',
+    headers: {
+      'Content-Type': 'application/json',
+    },
+    body: JSON.stringify(user)
+  });
+
+  return response.json();
+}
+
+export async function createUsedToken(user) {
+  const url = new URL(URL_SERVER);
+  url.pathname = '/users/createUsedToken';
+  let response = await fetch(url, {
+    method: 'Post',
+    headers: {
+      'Content-Type': 'application/json',
+    },
+    body: JSON.stringify(user)
+  });
+
+  return response.json();
+}

@@ -66,6 +66,7 @@ function Token(props) {
                     </div>
                 </div>
                 <div>{time} segundos restantes</div>
+                <button onClick={() => props.setTrigger(false)}>Cerrar</button>
             </div>
         </div>
     ) : "";

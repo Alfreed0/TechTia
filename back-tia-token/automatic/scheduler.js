@@ -5,8 +5,7 @@ function refreshToken() {
     db.User.findAll().then(users => {
         users.forEach(user => {
             const token = generateToken();
-            const updatedTime = new Date();
-            db.User.update({ token, updatedTime }, { where: { email: user.email } });
+            db.User.update({ token }, { where: { email: user.email } });
         });
     });
 }
